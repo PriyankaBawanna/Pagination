@@ -1,11 +1,11 @@
-import EmployeeTable from "./components/EmployeeTable";
-import "./App.css"
+
+import Stopwatch from "./stopWatch/StopWatch";
 
 function App() {
   return (
     <>
-      <h1>Employee Data Table</h1>
-      <EmployeeTable></EmployeeTable>
+     <Stopwatch />
+    
     </>
   );
 }
